@@ -3,9 +3,9 @@
 
 **1. Importing Required Libraries**
 
-from scapy.all import sniff
-from scapy.layers.inet import IP, TCP, UDP
-from scapy.layers.http import Raw
+    from scapy.all import sniff
+    from scapy.layers.inet import IP, TCP, UDP
+    from scapy.layers.http import Raw
 
 
 **scapy.all:** Imports all essential modules from Scapy, a powerful Python library for network packet manipulation and analysis.
